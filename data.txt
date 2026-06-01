@@ -1,0 +1,6 @@
+Name: kashish, Email: juug24btech18360@jainuniversity.ac.in
+Name: Chhavi, Email: kjaiswal33410@gmail.com, Phone: 7389991334, Gender: Female
+Name: kashish, Email: abc@gmail.com, Phone: 7389991334, Gender: Female
+Name: chhavi, Email: abkc@gmail.com, Phone: 7389991399, Gender: Female
+Name: aaditya, Email: a112c@gmail.com, Phone: 9780197801, Gender: Male
+Name: dhanuj, Email: dhanuj24@gmail.com, Phone: 9088990889, Gender: Male

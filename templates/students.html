@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Student Database</title>
+
+    <style>
+
+        body{
+            font-family:Arial;
+            background:#f4f4f4;
+            padding:30px;
+        }
+
+        h1{
+            text-align:center;
+        }
+
+        table{
+
+            width:100%;
+            border-collapse:collapse;
+            background:white;
+
+        }
+
+        th{
+
+            background:#667eea;
+            color:white;
+            padding:12px;
+
+        }
+
+        td{
+
+            padding:10px;
+            text-align:center;
+            border:1px solid #ddd;
+
+        }
+
+        tr:hover{
+
+            background:#f2f2f2;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>Student Database</h1>
+
+<table>
+
+<tr>
+
+<th>ID</th>
+<th>Name</th>
+<th>Email</th>
+<th>Phone</th>
+<th>Gender</th>
+
+</tr>
+
+{% for student in students %}
+
+<tr>
+
+<td>{{ student[0] }}</td>
+<td>{{ student[1] }}</td>
+<td>{{ student[2] }}</td>
+<td>{{ student[3] }}</td>
+<td>{{ student[4] }}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+</body>
+
+</html>
